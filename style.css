@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+    font-family: "Parkinsans", serif;
+    ;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.page_left {
+    width: 50%;
+    height: 100%;
+    /* background-color: chocolate; */
+    font-size: 1vw;
+}
+
+.page_right {
+    width: 50%;
+    height: 100%;
+    background-color:rgba(0, 0, 0,0.6);
+    font-size: 1vw;
+
+}
+
+nav {
+    padding: 3% 5%;
+    background-color: #2F2F2F;
+
+}
+
+nav>h1 {
+    background-color: #2F2F2F;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav>h2 {
+    background-color: #2F2F2F;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+nav>h2>span {
+
+    color: #4A6D17;
+
+}
+.page_left > p{
+    padding-top: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+.page_left > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+.page_left > h1{
+    padding-top: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+}
+.page_left > h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.page_left > h2>span{
+   
+    color: #4A6D17;
+   
+}
+
+.page_right h1{
+    padding:0 15%;
+    padding-top: 17%;
+    text-transform: uppercase;
+    color: #4A6D17;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1.5% 0;
+}
+
+.page_right form{
+    
+    padding-left: 15%;
+    
+}
+.page_right input{
+    
+    padding: 2% 14%;
+    margin: 1.5% 0;
+    text-align: start;
+   
+    background-color: rgba(255, 255, 255,0.2);
+
+}
+.page_right button{
+    margin: 1.5% 0;
+    padding: 10px 12%;
+    color: white;
+    background-color:#75BA00 ;
+}
